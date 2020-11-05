@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
 import Input from '../Input/Input'
-
-
 class RegisterForm extends Component {
   state = {
     formData: {
       name: {
         value: "",
         validator: {
-          minLength: 3,
+          minLength: 4,
           maxLength: 20,
           required: true
         },
